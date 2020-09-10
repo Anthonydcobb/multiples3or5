@@ -14,11 +14,11 @@ const multiplesOf3or5 = num => {
     }
   }
   const reducer = (acc,val) => acc + val
-  const newArr = arr.reduce(reducer)
+  const newArr = arr.reduce(reducer, 0)
   return newArr
 }
   
  
 
 
-multiplesOf3or5(100)
+multiplesOf3or5(10)
